@@ -24,35 +24,35 @@ public class EnviarEmailFormatoHTML {
 		
 		StringBuilder htmlTexto = new StringBuilder();
         
-        htmlTexto.append("<html>\n");
-        htmlTexto.append("<head>\n");
-        htmlTexto.append("<title>Exemplo de Tabela HTML</title>\n");
-        htmlTexto.append("</head>\n");
-        htmlTexto.append("<body>\n");
-        htmlTexto.append("<table border=\"1\">\n");
-        htmlTexto.append("<tr>\n");
-        htmlTexto.append("<td>Coluna 1</td>\n");
-        htmlTexto.append("<td>Coluna 2</td>\n");
-        htmlTexto.append("<td>Coluna 3</td>\n");
-        htmlTexto.append("</tr>\n");
-        htmlTexto.append("<tr>\n");
-        htmlTexto.append("<td>Linha 1</td>\n");
-        htmlTexto.append("<td>Linha 1</td>\n");
-        htmlTexto.append("<td>Linha 1</td>\n");
-        htmlTexto.append("</tr>\n");
-        htmlTexto.append("<tr>\n");
-        htmlTexto.append("<td>Linha 2</td>\n");
-        htmlTexto.append("<td>Linha 2</td>\n");
-        htmlTexto.append("<td>Linha 2</td>\n");
-        htmlTexto.append("</tr>\n");
-        htmlTexto.append("<tr>\n");
-        htmlTexto.append("<td>Linha 3</td>\n");
-        htmlTexto.append("<td>Linha 3</td>\n");
-        htmlTexto.append("<td>Linha 3</td>\n");
-        htmlTexto.append("</tr>\n");
-        htmlTexto.append("</table>\n");
-        htmlTexto.append("</body>\n");
-        htmlTexto.append("</html>");
+	        htmlTexto.append("<html>\n");
+	        htmlTexto.append("<head>\n");
+	        htmlTexto.append("<title>Exemplo de Tabela HTML</title>\n");
+	        htmlTexto.append("</head>\n");
+	        htmlTexto.append("<body>\n");
+	        htmlTexto.append("<table border=\"1\">\n");
+	        htmlTexto.append("<tr>\n");
+	        htmlTexto.append("<td>Coluna 1</td>\n");
+	        htmlTexto.append("<td>Coluna 2</td>\n");
+	        htmlTexto.append("<td>Coluna 3</td>\n");
+	        htmlTexto.append("</tr>\n");
+	        htmlTexto.append("<tr>\n");
+	        htmlTexto.append("<td>Linha 1</td>\n");
+	        htmlTexto.append("<td>Linha 1</td>\n");
+	        htmlTexto.append("<td>Linha 1</td>\n");
+	        htmlTexto.append("</tr>\n");
+	        htmlTexto.append("<tr>\n");
+	        htmlTexto.append("<td>Linha 2</td>\n");
+	        htmlTexto.append("<td>Linha 2</td>\n");
+	        htmlTexto.append("<td>Linha 2</td>\n");
+	        htmlTexto.append("</tr>\n");
+	        htmlTexto.append("<tr>\n");
+	        htmlTexto.append("<td>Linha 3</td>\n");
+	        htmlTexto.append("<td>Linha 3</td>\n");
+	        htmlTexto.append("<td>Linha 3</td>\n");
+	        htmlTexto.append("</tr>\n");
+	        htmlTexto.append("</table>\n");
+	        htmlTexto.append("</body>\n");
+	        htmlTexto.append("</html>");
 		
 		try {
 			email.setFrom(meuEmail);
@@ -68,5 +68,4 @@ public class EnviarEmailFormatoHTML {
 			e.printStackTrace();
 		}
 	}
-
 }
