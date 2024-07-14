@@ -1,7 +1,3 @@
-Claro, vou simplificar o README focando na explicação do propósito do repositório:
-
----
-
 # Envio de Emails com Apache Commons Email
 
 Este repositório fornece exemplos de como utilizar a biblioteca Apache Commons Email para enviar diferentes tipos de emails usando Java. Aqui você encontrará:
