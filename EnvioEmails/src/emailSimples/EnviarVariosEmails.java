@@ -25,25 +25,24 @@ public class EnviarVariosEmails extends Dados {
 		for (String mensagem : mensagens) {
             
 			try {
-                SimpleEmail email = new SimpleEmail();
-                email.setHostName("smtp.gmail.com");
-                email.setSmtpPort(465);
-                email.setAuthenticator(new DefaultAuthenticator(meuEmail, minhaSenha));
-                email.setSSLOnConnect(true); 
+                		SimpleEmail email = new SimpleEmail();
+                		email.setHostName("smtp.gmail.com");
+                		email.setSmtpPort(465);
+                		email.setAuthenticator(new DefaultAuthenticator(meuEmail, minhaSenha));
+                		email.setSSLOnConnect(true); 
 
-                email.setFrom(meuEmail);
-                email.setSubject("Assunto");
-                email.setMsg(mensagem);
-                email.addTo(destinatario);
-                email.send();
+                		email.setFrom(meuEmail);
+                		email.setSubject("Assunto");
+                		email.setMsg(mensagem);
+                		email.addTo(destinatario);
+                		email.send();
 
-                System.out.println("Email enviado: " + mensagem);
+                		System.out.println("Email enviado: " + mensagem);
 
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+            		} catch (Exception e) {
+                		e.printStackTrace();
+            		}
+        	}
 	}
-
 }
 
