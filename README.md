@@ -10,4 +10,6 @@ Este repositório fornece exemplos de como utilizar a biblioteca Apache Commons 
 
 O objetivo deste repositório é fornecer uma referência prática para desenvolvedores que desejam integrar funcionalidades de envio de emails em seus projetos Java utilizando a biblioteca Apache Commons Email.
 
----
+## Referência
+
+Para mais informações sobre a biblioteca Apache Commons Email, visite a [página oficial da biblioteca](https://commons.apache.org/proper/commons-email/).
